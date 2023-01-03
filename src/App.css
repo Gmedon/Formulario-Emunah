@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.maps {
+    width: 98%;
+}
+
+.label-atividades {
+    display: flex;
+}
+
+form {
+    width: 95%;
+    margin: 30px 0px;
+    font-size: 20px;
+}
+
+input {
+    width: 90%;
+}
+
+.bt {
+    width: 80px;
+    margin: 5px;
+    height: 30px;
+}
+
+@media (max-width: 540px) {
+    .label-atividades {
+        display: block;
+
+    }
+}

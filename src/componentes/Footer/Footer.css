@@ -1,0 +1,19 @@
+.footer-componets {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px #888;
+}
+
+.texto-footer {
+    color: white;
+    font-family: fantasy;
+    cursor: pointer;
+}
+
+.maps {
+    width: 100%;
+}
