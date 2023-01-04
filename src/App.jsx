@@ -26,16 +26,20 @@ function App() {
               <input type="text" name='Nome da criança' required className='input-required' />
             </label><br />
             <label>
-              Nome do responsavel<br />
-              <input type="text" name='Nome do responsavel' required className='input-required' />
-            </label><br />
-            <label>
               Idade<br />
               <input type="number" name='Idade' required className='input-required' />
             </label><br />
             <label>
               Roupa/Calçado<br />
               <input type="text" name='Roupa/Calçado' required className='input-required' />
+            </label><br />
+            <label>
+              CPF<br />
+              <input type="text" name='CPF' required className='input-required' />
+            </label><br />
+            <label>
+              Nome do responsavel<br />
+              <input type="text" name='Nome do responsavel' required className='input-required' />
             </label>
           </fieldset>
           <fieldset className='label-atividades'>
@@ -51,6 +55,10 @@ function App() {
             <label>
               <input type="checkbox" name='Teatro' />
               Teatro
+            </label><hr />
+            <label>
+              <input type="checkbox" name='Informatica' />
+              Informatica
             </label><hr />
             <label>
               <input type="checkbox" name='Reforço' />
