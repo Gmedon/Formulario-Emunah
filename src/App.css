@@ -30,6 +30,10 @@ input {
     width: 90%;
 }
 
+.input-autorizo {
+    width: 20px;
+}
+
 .bt {
     width: 80px;
     margin: 5px;
