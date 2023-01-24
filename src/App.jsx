@@ -61,6 +61,14 @@ function App() {
               Informatica
             </label><hr />
             <label>
+              <input type="checkbox" name='Eu lidero' />
+              Eu lidero
+            </label><hr />
+            <label>
+              <input type="checkbox" name='Libras' />
+              Libras
+            </label><hr />
+            <label>
               <input type="checkbox" name='Reforço' />
               Reforço
             </label>
@@ -88,6 +96,11 @@ function App() {
               Violino
             </label>
           </fieldset><hr />
+          <div>
+            <input type="checkbox" className='input-autorizo' name='Imagem' />
+            Autorizo o uso de imagens, para ser utilizados em publicações ou experiências.
+          </div>
+          <hr />
           <button type='submit' className='bt'>Enviar</button>
           <button className='bt' onClick={HandleClearClick}>Limpar</button>
         </form><hr />
